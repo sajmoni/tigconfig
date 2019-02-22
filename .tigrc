@@ -4,4 +4,5 @@ bind generic + !git commit --amend -v
 bind main T !@git tag %(prompt) %(commit)
 bind status P !git push origin
 bind status I @sh -c "dirname %(file) >> .gitignore"
-bind generic B @sh -c "open 'https://'$(git remote -v | grep -Eo 'github.com[:/][^.]+' | head -1 | tr : /)'/commit/%(commit)'"
+bind generic H @sh -c "open 'https://'$(git remote -v | grep -Eo 'github.com[:/][^.]+' | head -1 | tr : /)'/commit/%(commit)'"
+bind generic B @sh -c "open 'https://'$(git remote -v | grep -Eo 'bitbucket.org[:/][^.]+' | head -1 | tr : /)'/commits/%(commit)'"
