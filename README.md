@@ -17,14 +17,29 @@ Command | Description
 
 ## Use cases
 
-### Checkout branch
+### Branches
+
+#### Checkout
 
 - Press `r` to go the `refs` view
 - Press `C` to checkout branch
 - Press `y` and `enter` to confirm
 
-### Delete branch
+#### Delete
 
 - Press `r` to go the `refs` view
 - Press `!` to delete branch
+- Press `y` and `enter` to confirm
+
+### Stash
+
+#### Pop
+
+- Press `y` to go to the `stash` view
+- Press `P` to pop stash
+- Press `y` and `enter` to confirm
+
+#### Drop
+- Press `y` to go to the `stash` view
+- Press `!` to drop stash
 - Press `y` and `enter` to confirm
