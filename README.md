@@ -13,7 +13,8 @@ Command | Description
 **+** | Amend to previous commit
 **P** | Push
 **I** | Put file in gitignore
-**B** | Open commit on github.com
+**H** | Open commit on github.com
+**B** | Open commit on bitbucket.org
 
 ## Use cases
 
