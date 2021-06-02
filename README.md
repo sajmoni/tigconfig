@@ -4,9 +4,12 @@ The config I use for [tig](https://github.com/jonas/tig)
 
 ## Cheat sheet
 
+### Staging view
+
 | Command | Description                   |
 | ------- | ----------------------------- |
-| **D**   | Delete unstaged file          |
+| **D**   | Delete untracked file         |
+| **!**   | Reset unstaged file           |
 | **C**   | Commit all staged files       |
 | **1**   | Stage one line                |
 | **u**   | Stage file or stage one chunk |
@@ -14,6 +17,11 @@ The config I use for [tig](https://github.com/jonas/tig)
 | **P**   | Push                          |
 | **I**   | Put file in gitignore         |
 | **S**   | Stash unstaged files          |
+
+### History view
+
+| Command | Description                   |
+| ------- | ----------------------------- |
 | **H**   | Open commit on github.com     |
 | **B**   | Open commit on bitbucket.org  |
 
